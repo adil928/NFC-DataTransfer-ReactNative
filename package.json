@@ -1,0 +1,41 @@
+{
+  "name": "Spedn",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "reinstall": "rm -rf node_modules && yarn"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-i18n": "^2.0.15",
+    "react-native-nfc-manager": "^0.5.5",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.12.1",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-immutable": "^4.0.0",
+    "redux-saga": "^0.16.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "23.5.0",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

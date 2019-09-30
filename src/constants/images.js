@@ -1,0 +1,9 @@
+export const bgLanding = require('../assets/images/bg_landing.png');
+export const turnaroundOne = require('../assets/images/turnaround_1.png');
+export const turnaroundTwo = require('../assets/images/turnaround_2.png');
+export const turnaroundThree = require('../assets/images/turnaround_3.png');
+export const turnaroundFour = require('../assets/images/turnaround_4.png');
+export const commentOne = require('../assets/images/nfc-icon.png');
+export const commentTwo = require('../assets/images/comment_2.png');
+export const commentThree = require('../assets/images/comment_3.png');
+export const commentFour = require('../assets/images/comment_4.png');
